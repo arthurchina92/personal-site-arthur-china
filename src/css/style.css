@@ -1,0 +1,49 @@
+#F5EFE7 #D8C4B6 #4F709C #213555 body {
+  background-color: #f5efe7;
+}
+
+.home {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.profile-photo img {
+  width: 500;
+  height: 500;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.btn {
+  background-color: #213555;
+  color: #f5efe7;
+}
+.title1 {
+  font-size: 54px;
+}
+.subtitle1 {
+  font-size: 30px;
+}
+.about-me-section {
+  background-color: #4f709c;
+}
+.about-me {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+.logo {
+  align-items: center;
+  justify-content: center;
+}
+.text-container {
+  width: 70%;
+  color: #f5efe7;
+}
+.about-me-title {
+  font-size: 45px;
+}
+.about-me-text {
+  font-size: 20px;
+}
