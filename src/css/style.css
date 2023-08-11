@@ -1,7 +1,13 @@
 #F5EFE7 #D8C4B6 #4F709C #213555 body {
   background-color: #f5efe7;
 }
-
+.header {
+  background-color: #4f709c;
+  color: #f5efe7;
+}
+.nav-link {
+  color: #f5efe7;
+}
 .home {
   height: 100vh;
   justify-content: center;
