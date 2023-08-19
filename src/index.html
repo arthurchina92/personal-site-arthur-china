@@ -36,21 +36,19 @@
     </section>
 
     <!-- home -->
-    <section class="home">
-      <div class="container home-container col-xxl-8 px-4 py-5">
-        <div
-          class="row row-container flex-lg-row-reverse align-items-center g-5 py-5"
-        >
-          <div class="profile-photo col-10 col-sm-8 col-lg-4">
+    <section class="home py-md-5">
+      <div class="container home-container col-xxl-8 px-4">
+        <div class="row row-container align-items-center g-5 py-5">
+          <div class="profile-photo col-sm-12 col-md-12 col-lg-4">
             <img
               src="./assets/images/photo1.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="Bootstrap Themes"
-              height="400px"
+              height="80%"
               loading="lazy"
             />
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-8 col-sm-12 col-md-12">
             <h1 class="title1 display-5 fw-bold text-body-emphasis lh-1 mb-3">
               Hi I'm Arturo let's make your ideas come true!
             </h1>
@@ -61,7 +59,11 @@
             </h2>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-lg px-4 me-md-2">
-                Resume
+                <a
+                  href="./assets/images/Arturo China Resume.pdf"
+                  target="_blank"
+                  >Resume</a
+                >
               </button>
             </div>
           </div>
@@ -70,15 +72,19 @@
     </section>
 
     <!-- About-->
-    <section class="about-me-section d-flex justify-content-sm-center">
+    <section class="about-me-section d-flex justify-content-sm-center py-md-5">
       <div class="container row">
         <div
-          class="col-lg-5 logo d-flex justify-content-sm-center align-items-center py-5"
+          class="col-lg-5 col-md-12 logo d-flex justify-content-sm-center align-items-center py-5"
         >
-          <img src="./assets/images/brightcoders.png" />
+          <img
+            src="./assets/images/brightcoders.png"
+            class="img-fluid"
+            width="70%"
+          />
         </div>
-        <div class="about-me col-lg-7 text-center d-flex">
-          <div class="text-container">
+        <div class="about-me col-lg-7 col-md-12 text-center d-flex">
+          <div class="text-container col-12">
             <h1 class="about-me-title">About me</h1>
             <p class="about-me-text">
               I'm a teacher who started learning about web and mobile design, I
@@ -95,53 +101,68 @@
     <!-- Technologies -->
     <section class="technologies-section py-5">
       <div
-        class="container marketing justify-content-sm-center align-items-center d-flex"
+        class="container row marketing justify-content-sm-center align-items-center d-flex"
       >
         <h2 class="technologies-title text-center">Technologies</h2>
         <!-- Three columns of text below the carousel -->
-        <div class="row row-technologies">
-          <img
-            src="./assets/images/html.png"
-            class="col-2"
-            alt="html"
-            height="100px"
-            width="100px"
-          />
-          <img
-            src="./assets/images/css-svg.svg"
-            class="col-2"
-            alt="html"
-            height="100px"
-            width="100px"
-          />
-          <img
-            src="./assets/images/javascript-2.svg"
-            class="col-2"
-            alt="html"
-            height="100px"
-            width="100px"
-          />
-          <img
-            src="./assets/images/React-icon.svg.png"
-            class="col-2"
-            alt="html"
-            height="100px"
-            width="100px"
-          />
-          <img
-            src="./assets/images/reactnative2.png"
-            class="col-2"
-            alt="html"
-            height="100px"
-            width="100px"
-          />
-          <img
-            src="./assets/images/git2.png"
-            class="col-2"
-            alt="html"
-            height="100px"
-            width="100px"
-          />
+        <div
+          class="row row-technologies align-items-center justify-content-sm-center"
+        >
+          <div class="col-lg-2 col-md-4 technology-item">
+            <img
+              src="./assets/images/html.png"
+              class="img-fluid"
+              alt="html"
+              height="75%"
+              width="75%"
+            />
+          </div>
+
+          <div class="col-lg-2 col-md-4 technology-item">
+            <img
+              src="./assets/images/css-svg.svg"
+              class="img-fluid css-image"
+              alt="html"
+              height="60%"
+              width="60%"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 technology-item">
+            <img
+              src="./assets/images/javascript-2.svg"
+              class="img-fluid js-image"
+              alt="html"
+              height="60%"
+              width="60%"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 technology-item">
+            <img
+              src="./assets/images/React-icon.svg.png"
+              class="img-fluid"
+              alt="html"
+              height="80%"
+              width="80%"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 technology-item">
+            <img
+              src="./assets/images/reactnative2.png"
+              class="img-fluid"
+              alt="html"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div class="col-lg-2 col-md-4 technology-item">
+            <img
+              src="./assets/images/git2.png"
+              class="img-fluid"
+              alt="html"
+              height="70%"
+              width="70%"
+            />
+          </div>
         </div>
       </div>
     </section>

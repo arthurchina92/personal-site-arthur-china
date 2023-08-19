@@ -14,17 +14,16 @@
   font-size: 20px;
 }
 .home {
-  height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: #f5efe7;
   padding-top: 120px;
+  margin-bottom: 5px;
 }
-.home-container {
-}
+
 .profile-photo img {
-  width: 500;
-  height: 500;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -39,6 +38,7 @@
   font-size: 30px;
 }
 .about-me-section {
+  margin-top: 10px;
   background-color: #213555;
   padding: 100px;
 }
@@ -88,4 +88,19 @@ p {
 }
 .contact-text1 {
   margin-bottom: 50px;
+}
+.technology-item {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: #f5efe7; /* Cambia el color a tu preferencia */
+  text-decoration: none; /* Quita la subrayado por defecto */
+}
+
+/* Estilo del enlace cuando el mouse está sobre él */
+a:hover {
+  color: blue; /* Cambia el color a azul o tu preferencia */
 }
