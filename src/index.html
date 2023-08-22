@@ -17,26 +17,30 @@
     <section class="header">
       <header class="mb-auto">
         <div class="d-flex align-items-center">
-          <h3 class="col-6 name text-center">Arthur China</h3>
-
+          <a
+            class="col-6 name text-center nav-link fw-bold py-1 px-0 active"
+            aria-current="page"
+            href="#"
+            >Arthur China</a
+          >
           <nav
             class="col-6 nav nav-masthead justify-content-evenly float-md-center"
           >
             <a
               class="nav-link fw-bold py-1 px-0 active"
               aria-current="page"
-              href="#"
+              href="#home"
               >Home</a
             >
-            <a class="nav-link fw-bold py-1 px-0" href="#">Roadmap</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#about-me">About me</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#contact">Contact</a>
           </nav>
         </div>
       </header>
     </section>
 
     <!-- home -->
-    <section class="home py-md-5">
+    <section id="home" class="home py-md-5">
       <div class="container home-container col-xxl-8 px-4">
         <div class="row row-container align-items-center g-5 py-5">
           <div class="profile-photo col-sm-12 col-md-12 col-lg-4">
@@ -49,14 +53,14 @@
             />
           </div>
           <div class="col-lg-8 col-sm-12 col-md-12">
-            <h1 class="title1 display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            <h1 class="title1 display-5 fw-bold lh-1 mb-3">
               Hi I'm Arturo let's make your ideas come true!
             </h1>
-            <h2 class="subtitle1 lead py-5">
+            <p class="subtitle1 lead py-5">
               I´m a web and mobile developer specialized in react js and react
               native. I aim to design creative and functional mobile apps and
               web pages that create impact.
-            </h2>
+            </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-lg px-4 me-md-2">
                 <a
@@ -72,13 +76,16 @@
     </section>
 
     <!-- About-->
-    <section class="about-me-section d-flex justify-content-sm-center py-md-5">
-      <div class="container row">
+    <section
+      id="about-me"
+      class="about-me-section d-flex justify-content-sm-center"
+    >
+      <div class="container-about row">
         <div
           class="col-lg-5 col-md-12 logo d-flex justify-content-sm-center align-items-center py-5"
         >
           <img
-            src="./assets/images/brightcoders.png"
+            src="./assets/images/Logos/brightcoders.png"
             class="img-fluid"
             width="70%"
           />
@@ -99,9 +106,9 @@
     </section>
 
     <!-- Technologies -->
-    <section class="technologies-section py-5">
+    <section class="technologies-section">
       <div
-        class="container row marketing justify-content-sm-center align-items-center d-flex"
+        class="container-technologies row marketing justify-content-sm-center align-items-center d-flex"
       >
         <h2 class="technologies-title text-center">Technologies</h2>
         <!-- Three columns of text below the carousel -->
@@ -110,7 +117,7 @@
         >
           <div class="col-lg-2 col-md-4 technology-item">
             <img
-              src="./assets/images/html.png"
+              src="./assets/images/Technologies/html.png"
               class="img-fluid"
               alt="html"
               height="75%"
@@ -120,7 +127,7 @@
 
           <div class="col-lg-2 col-md-4 technology-item">
             <img
-              src="./assets/images/css-svg.svg"
+              src="./assets/images/Technologies/css-svg.svg"
               class="img-fluid css-image"
               alt="html"
               height="60%"
@@ -129,7 +136,7 @@
           </div>
           <div class="col-lg-2 col-md-4 technology-item">
             <img
-              src="./assets/images/javascript-2.svg"
+              src="./assets/images/Technologies/javascript-2.svg"
               class="img-fluid js-image"
               alt="html"
               height="60%"
@@ -138,7 +145,7 @@
           </div>
           <div class="col-lg-2 col-md-4 technology-item">
             <img
-              src="./assets/images/React-icon.svg.png"
+              src="./assets/images/Technologies/React-icon.svg.png"
               class="img-fluid"
               alt="html"
               height="80%"
@@ -147,7 +154,7 @@
           </div>
           <div class="col-lg-2 col-md-4 technology-item">
             <img
-              src="./assets/images/reactnative2.png"
+              src="./assets/images/Technologies/reactnative2.png"
               class="img-fluid"
               alt="html"
               height="100%"
@@ -156,7 +163,7 @@
           </div>
           <div class="col-lg-2 col-md-4 technology-item">
             <img
-              src="./assets/images/git2.png"
+              src="./assets/images/Technologies/git2.png"
               class="img-fluid"
               alt="html"
               height="70%"
@@ -168,13 +175,11 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact-section">
-      <div class="text-secondary px-4 py-5 text-center">
+    <section id="contact" class="contact-section">
+      <div class="contact-container text-secondary text-center">
         <h1 class="contact-title display-5 fw-bold text-white">Contact me</h1>
-        <p class="fs-5 mb-4 contact-text1">
+        <p class="contact-text2 container">
           Do you want to contact me? Let's talk about your projects and ideas.
-        </p>
-        <p class="contact-text2">
           Let´s get in touch and create something amazing!
         </p>
         <div class="py-5">

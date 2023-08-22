@@ -17,8 +17,10 @@
   justify-content: center;
   align-items: center;
   background-color: #f5efe7;
-  padding-top: 120px;
-  margin-bottom: 5px;
+}
+.home-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .profile-photo img {
@@ -32,15 +34,20 @@
   color: #f5efe7;
 }
 .title1 {
-  font-size: 54px;
+  color: #213555;
+  font-size: 60px;
 }
 .subtitle1 {
-  font-size: 30px;
+  font-size: 35px;
+  color: #4f709c;
 }
 .about-me-section {
   margin-top: 10px;
   background-color: #213555;
-  padding: 100px;
+}
+.container-about {
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 .about-me {
   justify-content: center;
@@ -57,19 +64,24 @@
   color: #f5efe7;
 }
 .about-me-title {
-  font-size: 45px;
+  font-size: 60px;
 }
 p {
-  font-size: 20px;
+  font-size: 30px;
   color: #f5efe7;
 }
 .technologies-section {
   display: flex;
   margin-top: 5px;
 }
+.container-technologies {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .technologies-title {
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 60px;
+  margin-bottom: 80px;
+  color: #213555;
 }
 .marketing {
   margin: 50px;
@@ -80,13 +92,21 @@ p {
 .row-technologies {
   margin-left: 50px;
 }
+.contact-title {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.contact-container {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
 .contact-row img {
   width: 120px;
   height: 100px;
   border-radius: 50%;
   margin-top: 15px;
 }
-.contact-text1 {
+.contact-text2 {
   margin-bottom: 50px;
 }
 .technology-item {
@@ -96,11 +116,10 @@ p {
   justify-content: center;
 }
 a {
-  color: #f5efe7; /* Cambia el color a tu preferencia */
-  text-decoration: none; /* Quita la subrayado por defecto */
+  color: #f5efe7;
+  text-decoration: none;
 }
 
-/* Estilo del enlace cuando el mouse está sobre él */
 a:hover {
-  color: blue; /* Cambia el color a azul o tu preferencia */
+  color: #213555;
 }
